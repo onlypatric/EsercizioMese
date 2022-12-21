@@ -1,7 +1,10 @@
 import java.util.Scanner;
 
 /**
- * App1
+ * App1, check readme for what this does
+ * 
+ * @author Patric Pintescul
+ * @version 1.0 21/12/2022
  */
 public class App1 {
     public static boolean isBisestile(int yr) {
@@ -15,8 +18,7 @@ public class App1 {
             try {
                 System.out.print("Inserire un anno:");
                 anno=Integer.parseInt(sc.nextLine());
-                if(anno>0)
-                    System.out.printf("%s bisestile:%10b\n",anno,isBisestile(anno));
+                System.out.printf("%s bisestile:%10b\n",anno,isBisestile(anno));
             } catch (Exception e) {
                 System.err.println(e.getMessage());
             }

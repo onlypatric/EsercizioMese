@@ -1,7 +1,10 @@
 import java.util.Scanner;
 
 /**
- * App1
+ * App0, check readme for what this does
+ * 
+ * @author Patric Pintescul
+ * @version 1.0 21/12/2022
  */
 public class App0 {
 
